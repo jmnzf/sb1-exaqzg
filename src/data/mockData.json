@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "title": "Website Redesign",
+      "description": "Complete overhaul of company website with modern design",
+      "status": "active",
+      "startDate": "2024-03-10T10:00:00Z",
+      "endDate": "2024-06-10T10:00:00Z",
+      "members": ["user1", "user2"],
+      "createdAt": "2024-03-10T10:00:00Z",
+      "updatedAt": "2024-03-10T10:00:00Z",
+      "clientResponsible": "John Client",
+      "companyResponsible": "user1"
+    },
+    {
+      "id": "2",
+      "title": "Mobile App Development",
+      "description": "Create a new mobile app for customer engagement",
+      "status": "in-progress",
+      "startDate": "2024-03-09T15:30:00Z",
+      "endDate": "2024-08-09T15:30:00Z",
+      "members": ["user1"],
+      "createdAt": "2024-03-09T15:30:00Z",
+      "updatedAt": "2024-03-09T15:30:00Z",
+      "clientResponsible": "Sarah Client",
+      "companyResponsible": "user2"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1",
+      "projectId": "1",
+      "title": "Design Homepage",
+      "description": "Create wireframes and mockups for the homepage",
+      "status": "en-progreso",
+      "assignedTo": "user1",
+      "dueDate": "2024-03-20T00:00:00Z",
+      "createdAt": "2024-03-10T10:00:00Z",
+      "updatedAt": "2024-03-10T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "projectId": "1",
+      "title": "Implement Navigation",
+      "description": "Create responsive navigation menu",
+      "status": "pendiente",
+      "assignedTo": "user2",
+      "dueDate": "2024-03-22T00:00:00Z",
+      "createdAt": "2024-03-10T10:00:00Z",
+      "updatedAt": "2024-03-10T10:00:00Z"
+    }
+  ]
+}

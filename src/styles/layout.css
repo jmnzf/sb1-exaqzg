@@ -1,0 +1,24 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+.layout.dark {
+  background-color: #111827;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 16rem;
+  margin-top: 4rem;
+  padding: 2rem;
+  overflow-y: auto;
+  min-height: calc(100vh - 4rem);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
